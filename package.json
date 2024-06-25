@@ -4,19 +4,23 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
   },
   "dependencies": {
     "@mdi/font": "7.0.96",
     "prettier": "^3.3.2",
     "roboto-fontface": "*",
     "vue": "^3.4.0",
+    "vue-router": "^4.4.0",
     "vuetify": "^3.5.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/eslint-config-prettier": "^9.0.0",
-    "eslint": "^9.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.26.0",
     "sass": "^1.71.1",
     "unplugin-fonts": "^1.1.1",
     "unplugin-vue-components": "^0.26.0",
