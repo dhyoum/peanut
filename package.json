@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@mdi/font": "7.0.96",
+    "axios": "^1.7.2",
+    "marked": "^13.0.1",
     "prettier": "^3.3.2",
     "roboto-fontface": "*",
     "vue": "^3.4.0",
